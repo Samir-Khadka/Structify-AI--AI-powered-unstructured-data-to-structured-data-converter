@@ -72,7 +72,7 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) to see your application running.
 
-## 🤖 Powered by Z.ai
+
 
 This scaffold is optimized for use ;
 
@@ -129,7 +129,7 @@ This scaffold includes a comprehensive set of modern web development tools:
 - **Type Safety**: End-to-end TypeScript with Zod validation
 - **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
 
-## 🤝 Get Started with Z.ai
+## 🤝 Get Started with Structify-AI--AI-powered-unstructured-data-to-structured-data-converter
 
 1. **Clone this scaffold** to jumpstart your project
 2. **Start building** with intelligent code generation and assistance
