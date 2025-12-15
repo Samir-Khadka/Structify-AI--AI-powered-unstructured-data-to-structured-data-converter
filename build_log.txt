@@ -1,0 +1,40 @@
+
+> nextjs_tailwind_shadcn_ts@0.1.0 build
+> next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/
+
+   ▲ Next.js 15.3.5
+   - Environments: .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 2000ms
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/10) ...
+   Generating static pages (2/10) 
+   Generating static pages (4/10) 
+   Generating static pages (7/10) 
+ ✓ Generating static pages (10/10)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    8.14 kB         126 kB
+├ ○ /_not-found                            977 B         102 kB
+├ ƒ /api                                   145 B         101 kB
+├ ƒ /api/auth/login                        145 B         101 kB
+├ ƒ /api/auth/register                     145 B         101 kB
+├ ƒ /api/documents                         145 B         101 kB
+├ ○ /auth                                3.81 kB         121 kB
+└ ○ /dashboard                           9.06 kB         119 kB
++ First Load JS shared by all             101 kB
+  ├ chunks/4bd1b696-a4b9de495e836315.js  53.2 kB
+  ├ chunks/684-e90eceb80523820c.js         46 kB
+  └ other shared chunks (total)             2 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+'cp' is not recognized as an internal or external command,
+operable program or batch file.

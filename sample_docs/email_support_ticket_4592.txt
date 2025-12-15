@@ -1,0 +1,17 @@
+Subject: Re: Issue with Login Page
+From: Support Team <support@structify.ai>
+To: Customer <user@example.com>
+Date: Nov 12, 2023 09:30 AM
+
+Hi Customer,
+
+Thank you for reaching out. We have investigated the issue with the login page.
+It appears to be a caching issue on the CDN. We have purged the cache.
+
+Can you please try clearing your browser cache and logging in again?
+
+Best,
+Support Team
+
+> On Nov 11, 2023, Customer wrote:
+> I cannot login to my account. I get a 500 error every time.

@@ -1,0 +1,73 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  lastLogin DateTime?
+  
+  documents         Document[]
+  exportHistory     ExportHistory[]
+  
+  @@map("users")
+}
+
+model Document {
+  id              String   @id @default(cuid())
+  userId          String
+  originalFilename String
+  fileType        String
+  fileSize        Int
+  filePath        String
+  uploadDate      DateTime @default(now())
+  processingStatus String @default("pending")
+  
+  user              User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  processingResults ProcessingResult[]
+  
+  @@map("documents")
+}
+
+model ProcessingResult {
+  id             String   @id @default(cuid())
+  documentId     String
+  extractedData  String   // JSON string
+  processingTime Float
+  accuracyMetrics String?
+  createdAt      DateTime @default(now())
+  
+  document      Document       @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  exportHistory ExportHistory[]
+  
+  @@map("processing_results")
+}
+
+model ExportHistory {
+  id                 String   @id @default(cuid())
+  processingResultId String
+  userId             String
+  exportFormat       String
+  exportDate         DateTime @default(now())
+  destination        String?
+  
+  processingResult ProcessingResult @relation(fields: [processingResultId], references: [id], onDelete: Cascade)
+  user             User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@map("export_history")
+}

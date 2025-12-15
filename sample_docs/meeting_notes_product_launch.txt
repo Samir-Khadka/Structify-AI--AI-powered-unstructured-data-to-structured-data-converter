@@ -1,0 +1,18 @@
+Meeting Minutes: Q4 Product Launch
+Date: December 1, 2023
+Attendees: Sarah (PM), Mike (Dev), Lisa (Design)
+
+Agenda:
+1. Finalize feature list for v2.0
+2. Review marketing timeline
+3. Set launch date
+
+Decisions:
+- Feature freeze effective immediately.
+- Marketing campaign starts Dec 15th on Twitter and LinkedIn.
+- Official Launch Date: January 10, 2024.
+
+Action Items:
+- Mike to deploy staging build by Friday.
+- Lisa to provide 3 banners for social media.
+- Sarah to draft press release.

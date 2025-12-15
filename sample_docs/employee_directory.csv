@@ -1,0 +1,6 @@
+EmployeeID,FirstName,LastName,Department,Role,Email
+E101,John,Smith,Engineering,Senior Dev,john@company.com
+E102,Lisa,Wong,Marketing,Manager,lisa@company.com
+E103,David,Miller,Sales,Associate,david@company.com
+E104,Sarah,Connor,Ops,Director,sarah@company.com
+E105,James,Bond,Security,Consultant,007@company.com

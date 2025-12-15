@@ -1,0 +1,18 @@
+Project Proposal: AI Customer Support Chatbot
+Prepared for: RetailGiant Ltd.
+
+Objective:
+Automate 60% of common customer queries using an AI-driven chatbot.
+
+Scope:
+- Intent recognition for shipping, returns, and product availability.
+- Integration with existing CRM.
+- 24/7 availability.
+
+Timeline:
+- Month 1: Requirement Analysis & Design
+- Month 2: Development & Training
+- Month 3: Testing & Deployment
+
+Budget:
+Estimated Cost: $25,000

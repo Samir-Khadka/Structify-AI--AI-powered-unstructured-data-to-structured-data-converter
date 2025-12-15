@@ -1,0 +1,5 @@
+CampaignID,Channel,Spend,Impressions,Clicks,Conversions
+CMP-01,Facebook,1000,50000,1200,50
+CMP-02,Google Ads,2500,80000,3000,120
+CMP-03,Email,200,10000,500,40
+CMP-04,LinkedIn,1500,25000,400,15

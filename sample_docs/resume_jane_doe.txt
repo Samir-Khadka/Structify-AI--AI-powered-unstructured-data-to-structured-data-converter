@@ -1,0 +1,21 @@
+Jane Doe
+Software Engineer
+Email: jane.doe@example.com | Phone: (555) 123-4567
+
+Summary:
+Experienced Full Stack Developer with 5 years in Node.js and React. Passionate about building scalable web applications.
+
+Experience:
+Senior Developer at TechGlobal (2020-Present)
+- Led a team of 4 developers.
+- Reduced API latency by 40%.
+
+Junior Developer at StartUp Inc (2018-2020)
+- Built internal dashboard tools.
+- Maintained legacy PHP codebase.
+
+Education:
+B.S. Computer Science, University of Technology (2018)
+
+Skills:
+JavaScript, TypeScript, Python, SQL, Docker, AWS

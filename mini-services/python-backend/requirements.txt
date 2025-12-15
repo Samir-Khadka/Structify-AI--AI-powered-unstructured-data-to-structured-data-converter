@@ -1,0 +1,26 @@
+fastapi
+uvicorn
+python-multipart
+pdfplumber
+spacy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+pandas
+pytesseract
+Pillow
+openpyxl
+python-dotenv
+pydantic
+sqlalchemy
+alembic
+psycopg2-binary
+aiosqlite
+httpx
+numpy
+openai
+# Note: torch and transformers require Long Paths enabled on Windows or manual install
+# transformers
+# torch
+opencv-python
+tabula-py
+camelot-py
+pymupdf
